@@ -1,5 +1,5 @@
 require "sinatra"
-require "sinatra/reloader"
+require "sinatra/reloader" if development?
 require "tilt/erubis"
 require "json"
 
@@ -30,12 +30,6 @@ helpers do
     end
   end
 
-  # def find_ids
-  #   @art_objects.each_with_object([]) do |art_object, results|
-  #     results << art_object["id"]
-  #   end
-  # end
-
   def find_image
     @art_objects.select { |art_obj| art_obj["id"] == @id }[0]["webImage"]["url"]
   end
@@ -62,13 +56,6 @@ helpers do
     end[0]["id"]
   end
 end
-
-# before do
-#   @rembrandt_collection = convert_json_to_hash
-#   @art_objects = @rembrandt_collection["artObjects"]
-#   @titles = find_titles
-#   @ids = find_ids
-# end
 
 get '/' do
   redirect '/artists'
@@ -101,14 +88,3 @@ get '/:artist/:id' do
 
   erb :id
 end
-
-
-
-
-# get all the ids and check to see if it's included
-
-# jobj = File.read('rijk_proj.json')
-
-# hsh = JSON.parse(jobj)
-
-# p hsh
