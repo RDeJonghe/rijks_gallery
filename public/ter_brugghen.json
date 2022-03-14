@@ -1,0 +1,509 @@
+{
+  "elapsedMilliseconds": 0,
+  "count": 20,
+  "countFacets": {
+      "hasimage": 20,
+      "ondisplay": 3
+  },
+  "artObjects": [
+      {
+          "links": {
+              "self": "http://www.rijksmuseum.nl/api/en/collection/RP-P-OB-2226",
+              "web": "http://www.rijksmuseum.nl/en/collection/RP-P-OB-2226"
+          },
+          "id": "en-RP-P-OB-2226",
+          "objectNumber": "RP-P-OB-2226",
+          "title": "Heilige Hieronymus",
+          "hasImage": true,
+          "principalOrFirstMaker": "Willem van de Passe",
+          "longTitle": "Heilige Hieronymus, Willem van de Passe, 1607 - 1637",
+          "showImage": true,
+          "permitDownload": true,
+          "webImage": {
+              "guid": "3b25bf62-9d4b-4333-af36-a60aec2d6cd7",
+              "offsetPercentageX": 0,
+              "offsetPercentageY": 0,
+              "width": 2500,
+              "height": 2040,
+              "url": "https://lh4.ggpht.com/-9MjeM2yBWec2R8l4v1TizIrcMSi8PXJTkHlTo53cHOeZfqMwgSPAAZnX5oovCloF8hFz9biv5NmVzGdovsQ5U7VoaQ=s0"
+          },
+          "headerImage": {
+              "guid": "44c5209a-1968-4434-8a94-fbea64f38ef3",
+              "offsetPercentageX": 0,
+              "offsetPercentageY": 0,
+              "width": 1920,
+              "height": 460,
+              "url": "https://lh5.ggpht.com/U9zYxFQv74bP7Z2tXLlfRDVcrY4WbzG3uQdxE0UZBgf4o0Rw8aJ62-dDB98xFHOX93PAYkla4mYGLxVomq_fZu-0zD4f=s0"
+          },
+          "productionPlaces": [
+              "Utrecht"
+          ]
+      },
+      {
+          "links": {
+              "self": "http://www.rijksmuseum.nl/api/en/collection/RP-P-1879-A-3652",
+              "web": "http://www.rijksmuseum.nl/en/collection/RP-P-1879-A-3652"
+          },
+          "id": "en-RP-P-1879-A-3652",
+          "objectNumber": "RP-P-1879-A-3652",
+          "title": "Luit spelende man",
+          "hasImage": true,
+          "principalOrFirstMaker": "Salomon Savery",
+          "longTitle": "Luit spelende man, Salomon Savery (attributed to), 1610 - 1665",
+          "showImage": true,
+          "permitDownload": true,
+          "webImage": {
+              "guid": "ef757fc6-aee1-4236-9b84-8912a76bcb2c",
+              "offsetPercentageX": 0,
+              "offsetPercentageY": 0,
+              "width": 2126,
+              "height": 2500,
+              "url": "https://lh6.ggpht.com/1NmlV3Rd0GmYbcr66d4Y4FtwigKgb4kHrmDjYqleGgYWuCwO9ziw80nYHEhVP8MVJaXCrb_O5wLS0lGLX7jPLgiFwHg=s0"
+          },
+          "headerImage": {
+              "guid": "766c3912-d2f9-4aa5-a2d6-9aff1b699e62",
+              "offsetPercentageX": 0,
+              "offsetPercentageY": 0,
+              "width": 1920,
+              "height": 460,
+              "url": "https://lh5.ggpht.com/7cnua1xK9zZArcX2-4A70TmIq8KYQiRliWt7VrbKjy66gQBFXeOoYIizu4Bgq3pu48WHLrGkQcAmSQAs-KqJdM5aGXc=s0"
+          },
+          "productionPlaces": [
+              "Amsterdam"
+          ]
+      },
+      {
+          "links": {
+              "self": "http://www.rijksmuseum.nl/api/en/collection/RP-P-1889-A-14846",
+              "web": "http://www.rijksmuseum.nl/en/collection/RP-P-1889-A-14846"
+          },
+          "id": "en-RP-P-1889-A-14846",
+          "objectNumber": "RP-P-1889-A-14846",
+          "title": "Man met miniatuurportret in de hand",
+          "hasImage": true,
+          "principalOrFirstMaker": "Theodor Matham",
+          "longTitle": "Man met miniatuurportret in de hand, Theodor Matham, 1615 - 1726",
+          "showImage": true,
+          "permitDownload": true,
+          "webImage": {
+              "guid": "7c7ca53b-0bc8-4aaf-bfe5-53407bd215e9",
+              "offsetPercentageX": 0,
+              "offsetPercentageY": 0,
+              "width": 1960,
+              "height": 2500,
+              "url": "https://lh3.ggpht.com/OY5L-jtSiGcmqO-LjX4Gkay4BR2SxoZ0U5YgTzAr-DSFvYvWnqt2hk1WLFroPYMXaBBXvdRL2TWZ1KnmeviNNpeauEBd=s0"
+          },
+          "headerImage": {
+              "guid": "8853fb33-1ea2-42cd-9dd0-fb54143e3a1d",
+              "offsetPercentageX": 0,
+              "offsetPercentageY": 0,
+              "width": 1920,
+              "height": 460,
+              "url": "https://lh5.ggpht.com/GWJnAS5G7Ob5gYcbBJ1aLOmgrTXQAwtkhwcmiEeBkERlt_sWe7JS4dDfCFTO1EM9sRywM0KltPxuiFL_9JzyiF8PJA=s0"
+          },
+          "productionPlaces": []
+      },
+      {
+          "links": {
+              "self": "http://www.rijksmuseum.nl/api/en/collection/RP-P-1882-A-6434",
+              "web": "http://www.rijksmuseum.nl/en/collection/RP-P-1882-A-6434"
+          },
+          "id": "en-RP-P-1882-A-6434",
+          "objectNumber": "RP-P-1882-A-6434",
+          "title": "Man met viool en roemer",
+          "hasImage": true,
+          "principalOrFirstMaker": "Theodor Matham",
+          "longTitle": "Man met viool en roemer, Theodor Matham, 1615 - 1676",
+          "showImage": true,
+          "permitDownload": true,
+          "webImage": {
+              "guid": "bb24d442-34df-44f5-b402-030d9db7f7fe",
+              "offsetPercentageX": 0,
+              "offsetPercentageY": 0,
+              "width": 1871,
+              "height": 2500,
+              "url": "https://lh6.ggpht.com/wZ9dvJAS3V-oYS3XNQ3jUD6FfmmWocbP0MzKJhMtpJFiC0_6WGOdJTZPejluTzit0z8Qgy9KGGOk5d_1Uns5aNxDgA=s0"
+          },
+          "headerImage": {
+              "guid": "eae26881-9b7d-4fb4-b51e-c34c6a779d0a",
+              "offsetPercentageX": 0,
+              "offsetPercentageY": 0,
+              "width": 1919,
+              "height": 460,
+              "url": "https://lh5.ggpht.com/2SJles_4WK78E6pxugZQcflBzlKxtJshgYI5BCUMdoLN3TJc8JaYlc-fBTrRz6e1UME-I76zY7g0DLyiH-phmZTnIHIX=s0"
+          },
+          "productionPlaces": []
+      },
+      {
+          "links": {
+              "self": "http://www.rijksmuseum.nl/api/en/collection/RP-P-2000-181",
+              "web": "http://www.rijksmuseum.nl/en/collection/RP-P-2000-181"
+          },
+          "id": "en-RP-P-2000-181",
+          "objectNumber": "RP-P-2000-181",
+          "title": "Man met viool en roemer",
+          "hasImage": true,
+          "principalOrFirstMaker": "Theodor Matham",
+          "longTitle": "Man met viool en roemer, Theodor Matham, 1615 - 1726",
+          "showImage": true,
+          "permitDownload": true,
+          "webImage": {
+              "guid": "893bb56c-9781-48ef-9321-ecd5c81bfee1",
+              "offsetPercentageX": 0,
+              "offsetPercentageY": 0,
+              "width": 1852,
+              "height": 2500,
+              "url": "https://lh5.ggpht.com/313E8UnRkjyKptQoEAHPhQhDKm_Eb0pTwQzBKm7-LgMQpPE8pclIeTUqmFxxXbBZRt21_TNmTzVX-nCcudAYuNPZEegA=s0"
+          },
+          "headerImage": {
+              "guid": "f831203d-c7c7-4636-b2cb-c9792b089045",
+              "offsetPercentageX": 0,
+              "offsetPercentageY": 0,
+              "width": 1920,
+              "height": 460,
+              "url": "https://lh5.ggpht.com/07BiiCPQjIDlsmBgLvWnIVl2wV-_qK7y9CwnMaATsrqGqAZ0nJXCxKHF0aOMNcOteSwiYfPbN-IjCJKhAAmkIzrHVgYG=s0"
+          },
+          "productionPlaces": []
+      },
+      {
+          "links": {
+              "self": "http://www.rijksmuseum.nl/api/en/collection/RP-P-2000-180",
+              "web": "http://www.rijksmuseum.nl/en/collection/RP-P-2000-180"
+          },
+          "id": "en-RP-P-2000-180",
+          "objectNumber": "RP-P-2000-180",
+          "title": "Man met miniatuurportret in de hand",
+          "hasImage": true,
+          "principalOrFirstMaker": "Theodor Matham",
+          "longTitle": "Man met miniatuurportret in de hand, Theodor Matham, 1615 - 1676",
+          "showImage": true,
+          "permitDownload": true,
+          "webImage": {
+              "guid": "784b28fb-325b-4233-b4a9-dd381326c112",
+              "offsetPercentageX": 0,
+              "offsetPercentageY": 0,
+              "width": 1768,
+              "height": 2500,
+              "url": "https://lh3.ggpht.com/uJ6k8FJeuA02FjNodmgSfrWNPrZTS6uDN3Jw69GYkMHYRSg8htzMqd5bNXFSxHVdrSd0soyTxPBH9b250Br_A_Bcgfh7=s0"
+          },
+          "headerImage": {
+              "guid": "e4df9535-81fc-4401-a289-15ac9aacf8b2",
+              "offsetPercentageX": 0,
+              "offsetPercentageY": 0,
+              "width": 1919,
+              "height": 460,
+              "url": "https://lh3.ggpht.com/eBm6Ngm93uba3_LkFu62TtSYXF3pQ0tx1-VDMnE9SlJNuLcsNRD5_K3bJPAQviuwRvXx0IW40xdnE7AY8VIpES_x6A=s0"
+          },
+          "productionPlaces": []
+      },
+      {
+          "links": {
+              "self": "http://www.rijksmuseum.nl/api/en/collection/RP-P-1890-A-15944",
+              "web": "http://www.rijksmuseum.nl/en/collection/RP-P-1890-A-15944"
+          },
+          "id": "en-RP-P-1890-A-15944",
+          "objectNumber": "RP-P-1890-A-15944",
+          "title": "Engel waarschuwt Jozef naar Egypte te vluchten",
+          "hasImage": true,
+          "principalOrFirstMaker": "Albert Poel",
+          "longTitle": "Engel waarschuwt Jozef naar Egypte te vluchten, Albert Poel, 1619 - 1629",
+          "showImage": true,
+          "permitDownload": true,
+          "webImage": {
+              "guid": "e06fe398-7dfb-4312-a288-204345b3f2b5",
+              "offsetPercentageX": 0,
+              "offsetPercentageY": 0,
+              "width": 2500,
+              "height": 2110,
+              "url": "https://lh4.ggpht.com/fZJhXUItgJf1nQMKO5H3o8cjQuvS9AI0UreG1cFBW9cxShYTlUgffkA5FgCECiEuP1yzPSvRy-4DoB4_MAvSeaCqNPs=s0"
+          },
+          "headerImage": {
+              "guid": null,
+              "offsetPercentageX": 0,
+              "offsetPercentageY": 0,
+              "width": 0,
+              "height": 0,
+              "url": null
+          },
+          "productionPlaces": [
+              "Northern Netherlands"
+          ]
+      },
+      {
+          "links": {
+              "self": "http://www.rijksmuseum.nl/api/en/collection/SK-A-4188",
+              "web": "http://www.rijksmuseum.nl/en/collection/SK-A-4188"
+          },
+          "id": "en-SK-A-4188",
+          "objectNumber": "SK-A-4188",
+          "title": "The Adoration of the Kings",
+          "hasImage": true,
+          "principalOrFirstMaker": "Hendrick ter Brugghen",
+          "longTitle": "The Adoration of the Kings, Hendrick ter Brugghen, 1619",
+          "showImage": true,
+          "permitDownload": true,
+          "webImage": {
+              "guid": "30cd83da-110e-4083-9469-22f785cc237c",
+              "offsetPercentageX": 0,
+              "offsetPercentageY": 0,
+              "width": 2500,
+              "height": 2098,
+              "url": "https://lh3.googleusercontent.com/krNc1XxngoHmyHSqPUl9e9h_Ue5r7vrJhScf4B-SYiVqIY76ef26BYVBjvvKAEG0SWCR_5jED724t43wWHX7_K2s-B6LR5ng3GtRzz3_=s0"
+          },
+          "headerImage": {
+              "guid": "0e9f6327-9e5b-45db-b9dd-8eedfce8bfd7",
+              "offsetPercentageX": 0,
+              "offsetPercentageY": 0,
+              "width": 1920,
+              "height": 460,
+              "url": "https://lh3.googleusercontent.com/5zNTRiD6-wdZtHN7oJpifl78iWT_gk7qIxKczlUgqkc1vysTI3MAyjEUN2DxTQ_8BKPpH7GEPgbA-xsHkdCVze-rQ2UU5kQrPObuuLPM=s0"
+          },
+          "productionPlaces": []
+      },
+      {
+          "links": {
+              "self": "http://www.rijksmuseum.nl/api/en/collection/SK-A-3908",
+              "web": "http://www.rijksmuseum.nl/en/collection/SK-A-3908"
+          },
+          "id": "en-SK-A-3908",
+          "objectNumber": "SK-A-3908",
+          "title": "The Incredulity of Thomas",
+          "hasImage": true,
+          "principalOrFirstMaker": "Hendrick ter Brugghen",
+          "longTitle": "The Incredulity of Thomas, Hendrick ter Brugghen, c. 1622",
+          "showImage": true,
+          "permitDownload": true,
+          "webImage": {
+              "guid": "3e6a0dc3-def5-4d50-beeb-e05435636d5d",
+              "offsetPercentageX": 0,
+              "offsetPercentageY": 0,
+              "width": 2500,
+              "height": 1974,
+              "url": "https://lh3.googleusercontent.com/51odYmHEKOkUngIUKc1dgH8asEzavFzSmofyq5SHgdB7nbnwZeWuBKTEInRm-nWWiNaeAIznqD1oGuBIbsc0JShLT0QSv5sDCAY6M2li=s0"
+          },
+          "headerImage": {
+              "guid": "fa8157ce-159e-44d4-81b1-b296a5c8cef3",
+              "offsetPercentageX": 0,
+              "offsetPercentageY": 0,
+              "width": 1920,
+              "height": 460,
+              "url": "https://lh3.googleusercontent.com/mOau0Lj2l_HFgIC_TD7Rd8RcDUw3ovtrPA26k7lGE8RlqOmZ0Mz_pcLqPoViNk2dv5OEk4-uAm5tnBma0VQ5BE4OikgsE6tPNEcMMBB4=s0"
+          },
+          "productionPlaces": []
+      },
+      {
+          "links": {
+              "self": "http://www.rijksmuseum.nl/api/en/collection/SK-A-2784",
+              "web": "http://www.rijksmuseum.nl/en/collection/SK-A-2784"
+          },
+          "id": "en-SK-A-2784",
+          "objectNumber": "SK-A-2784",
+          "title": "Heraclitus",
+          "hasImage": true,
+          "principalOrFirstMaker": "Hendrick ter Brugghen",
+          "longTitle": "Heraclitus, Hendrick ter Brugghen, 1628",
+          "showImage": true,
+          "permitDownload": true,
+          "webImage": {
+              "guid": "63c36ddf-ed54-46f7-aae2-6d93a0459c6f",
+              "offsetPercentageX": 0,
+              "offsetPercentageY": 0,
+              "width": 2027,
+              "height": 2500,
+              "url": "https://lh3.googleusercontent.com/E0vONXxtX4Ddy0A4SbMBWptMbAZpb8xpwCq1vSdi_8pCZuNMHoijK8fJB1P7xQqGGbsYNYj-JEoVnNf58tkmFzlBgBnhrwVCrqlEdJFu=s0"
+          },
+          "headerImage": {
+              "guid": "5f5a761d-08f3-4ebe-a0bc-45a01d91d8e5",
+              "offsetPercentageX": 0,
+              "offsetPercentageY": 0,
+              "width": 1920,
+              "height": 460,
+              "url": "https://lh3.googleusercontent.com/aUBwWMDmwLcim4McqgyeJpgoAfmIJ9PtL8_SgAObamw8Q5jl4NbA6nG-JRb_upvKUC_L32DncI4FZy2afSKdneI53QXHu4C4v6qLfXcY=s0"
+          },
+          "productionPlaces": []
+      }
+  ],
+  "facets": [
+      {
+          "facets": [
+              {
+                  "key": "Hendrick ter Brugghen",
+                  "value": 4
+              },
+              {
+                  "key": "Theodor Matham",
+                  "value": 4
+              },
+              {
+                  "key": "Dirk Koedijck",
+                  "value": 3
+              },
+              {
+                  "key": "anonymous",
+                  "value": 2
+              },
+              {
+                  "key": "Albert Poel",
+                  "value": 1
+              },
+              {
+                  "key": "Jan Griffier (I)",
+                  "value": 1
+              },
+              {
+                  "key": "Jan van der Bruggen",
+                  "value": 1
+              },
+              {
+                  "key": "Johann Friedrich Leonard",
+                  "value": 1
+              },
+              {
+                  "key": "Johannes de Groot (II)",
+                  "value": 1
+              },
+              {
+                  "key": "Salomon Savery",
+                  "value": 1
+              },
+              {
+                  "key": "Willem van de Passe",
+                  "value": 1
+              }
+          ],
+          "name": "principalMaker",
+          "otherTerms": 20,
+          "prettyName": 10
+      },
+      {
+          "facets": [
+              {
+                  "key": "print",
+                  "value": 16
+              },
+              {
+                  "key": "painting",
+                  "value": 4
+              }
+          ],
+          "name": "type",
+          "otherTerms": 0,
+          "prettyName": 3
+      },
+      {
+          "facets": [
+              {
+                  "key": "17",
+                  "value": 16
+              },
+              {
+                  "key": "18",
+                  "value": 4
+              }
+          ],
+          "name": "dating.period",
+          "otherTerms": 0,
+          "prettyName": 4
+      },
+      {
+          "facets": [
+              {
+                  "key": "Amsterdam",
+                  "value": 2
+              },
+              {
+                  "key": "Northern Netherlands",
+                  "value": 2
+              },
+              {
+                  "key": "Delft",
+                  "value": 1
+              },
+              {
+                  "key": "Utrecht",
+                  "value": 1
+              }
+          ],
+          "name": "place",
+          "otherTerms": 0,
+          "prettyName": 2
+      },
+      {
+          "facets": [
+              {
+                  "key": "paper",
+                  "value": 16
+              },
+              {
+                  "key": "canvas",
+                  "value": 4
+              },
+              {
+                  "key": "oil paint (paint)",
+                  "value": 4
+              }
+          ],
+          "name": "material",
+          "otherTerms": 0,
+          "prettyName": 5
+      },
+      {
+          "facets": [
+              {
+                  "key": "engraving",
+                  "value": 11
+              }
+          ],
+          "name": "technique",
+          "otherTerms": 0,
+          "prettyName": 8
+      },
+      {
+          "facets": [
+              {
+                  "key": " #000000",
+                  "value": 3
+              },
+              {
+                  "key": " #2F4F4F",
+                  "value": 3
+              },
+              {
+                  "key": " #E0CC91",
+                  "value": 3
+              },
+              {
+                  "key": " #FBF6E1",
+                  "value": 3
+              },
+              {
+                  "key": "#737C84",
+                  "value": 2
+              },
+              {
+                  "key": " #737C84",
+                  "value": 1
+              },
+              {
+                  "key": " #B35A1F",
+                  "value": 1
+              },
+              {
+                  "key": "#2F4F4F",
+                  "value": 1
+              },
+              {
+                  "key": "#B35A1F",
+                  "value": 1
+              },
+              {
+                  "key": "#E0CC91",
+                  "value": 1
+              }
+          ],
+          "name": "normalized32Colors.hex",
+          "otherTerms": 19,
+          "prettyName": 9
+      }
+  ]
+}

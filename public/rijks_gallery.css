@@ -1,0 +1,15 @@
+
+body {
+  font-family: optima;
+}
+div { 
+  color: red; 
+  text-indent: 2%
+}
+.end {
+  text-align: center;
+}
+.info {
+  background-color: salmon;
+  text-align: center;
+}

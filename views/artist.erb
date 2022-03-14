@@ -1,0 +1,12 @@
+<h2> Aritst Collection </h2>
+
+<p><%= @artist %></p>
+
+<ul>
+  <% @titles.each do |title| %>
+    <li><a href=<%= @artist %>/<%= find_id_of_title(title) %>><%= title %></a></li>
+  <% end %>
+</ul>
+
+
+<p><%= @titles %></p>

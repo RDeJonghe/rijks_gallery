@@ -1,0 +1,573 @@
+{
+  "elapsedMilliseconds": 0,
+  "count": 49,
+  "countFacets": {
+      "hasimage": 49,
+      "ondisplay": 1
+  },
+  "artObjects": [
+      {
+          "links": {
+              "self": "http://www.rijksmuseum.nl/api/en/collection/RP-P-OB-1098",
+              "web": "http://www.rijksmuseum.nl/en/collection/RP-P-OB-1098"
+          },
+          "id": "en-RP-P-OB-1098",
+          "objectNumber": "RP-P-OB-1098",
+          "title": "Heilige Christoffel",
+          "hasImage": true,
+          "principalOrFirstMaker": "Alart du Hameel",
+          "longTitle": "Heilige Christoffel, Alart du Hameel, 1459 - 1509",
+          "showImage": true,
+          "permitDownload": true,
+          "webImage": {
+              "guid": "cf5af40f-9a9e-4b84-9672-39c9bd5550be",
+              "offsetPercentageX": 0,
+              "offsetPercentageY": 0,
+              "width": 3000,
+              "height": 1884,
+              "url": "https://lh3.ggpht.com/8nKgHwCdCVLu9ehtTUVCqVy452nm8_wsAyTBFMPSaGzAXELnD6eTd-GYjpMOM3Rk0kvREsj1UyWGq1XYGOETYZzIsro=s0"
+          },
+          "headerImage": {
+              "guid": "db79db0c-0e7c-4254-a4f2-566d65dfc998",
+              "offsetPercentageX": 0,
+              "offsetPercentageY": 0,
+              "width": 1920,
+              "height": 460,
+              "url": "https://lh4.ggpht.com/HP62_rGEP2disa8_ILdMM86W3zLhERcTL6zq7Fnq38AJw1mwllA-2hJK-78EZhfsm36NbDVwaekRX3vZPuPTtCgBmkn6=s0"
+          },
+          "productionPlaces": [
+              "Low Countries"
+          ]
+      },
+      {
+          "links": {
+              "self": "http://www.rijksmuseum.nl/api/en/collection/RP-P-OB-3080",
+              "web": "http://www.rijksmuseum.nl/en/collection/RP-P-OB-3080"
+          },
+          "id": "en-RP-P-OB-3080",
+          "objectNumber": "RP-P-OB-3080",
+          "title": "Leprozenbedelaar in de gedaante van de Duivel",
+          "hasImage": true,
+          "principalOrFirstMaker": "anonymous",
+          "longTitle": "Leprozenbedelaar in de gedaante van de Duivel, anonymous, 1474 - 1566",
+          "showImage": true,
+          "permitDownload": true,
+          "webImage": {
+              "guid": "53067a76-9df7-49dd-8715-7965aaffd61f",
+              "offsetPercentageX": 0,
+              "offsetPercentageY": 0,
+              "width": 1748,
+              "height": 2500,
+              "url": "https://lh5.ggpht.com/d60kzJ6MLDzwZNDBwK93UX4drIuT9hjkB26010yuha5olnHaqfwsOkQhyM3KBtBNonJVBHImnjPB6_waTmEkhgjBaRY=s0"
+          },
+          "headerImage": {
+              "guid": "0dbed50f-4961-49f0-8c97-48235ed6060c",
+              "offsetPercentageX": 0,
+              "offsetPercentageY": 0,
+              "width": 1748,
+              "height": 419,
+              "url": "https://lh6.ggpht.com/knVD0YVSr-5yeQRa-vuNqZtUJY1V-WlgwHHw4VHIxqlMsr-XrNGxFEb7LvMbHPbC0bTBRNXn5WwTQ9WzZTC4nOl5TUw=s0"
+          },
+          "productionPlaces": [
+              "Netherlands",
+              "Den Bosch"
+          ]
+      },
+      {
+          "links": {
+              "self": "http://www.rijksmuseum.nl/api/en/collection/RP-P-1878-A-2523",
+              "web": "http://www.rijksmuseum.nl/en/collection/RP-P-1878-A-2523"
+          },
+          "id": "en-RP-P-1878-A-2523",
+          "objectNumber": "RP-P-1878-A-2523",
+          "title": "Laatste Oordeel",
+          "hasImage": true,
+          "principalOrFirstMaker": "Alart du Hameel",
+          "longTitle": "Laatste Oordeel, Alart du Hameel, 1478 - 1509",
+          "showImage": true,
+          "permitDownload": true,
+          "webImage": {
+              "guid": "c3147cf0-5154-4514-bebb-c29cf7c89b2d",
+              "offsetPercentageX": 0,
+              "offsetPercentageY": 0,
+              "width": 3000,
+              "height": 2131,
+              "url": "https://lh5.ggpht.com/QSJD2yhUATz0k29zFFKjL2LxO2N3BmTb3hElnSrcd_t0fDy-DHowdCvq5ZOXizSGdwUSSe0fPoWh-ve33jfvERX1Fsc=s0"
+          },
+          "headerImage": {
+              "guid": "0a7d0f38-78be-4733-8e9c-eca2289ef2d8",
+              "offsetPercentageX": 0,
+              "offsetPercentageY": 0,
+              "width": 1920,
+              "height": 460,
+              "url": "https://lh6.ggpht.com/NF1PDr71r7Ju_UlFprdcohmye4hpA_SNSMpA8BxsbF4w6OGuJLaYcpykCFFEWXdIZ2TmgFz3ddOp0KfxDBOQfy6rBhZv=s0"
+          },
+          "productionPlaces": [
+              "Low Countries"
+          ]
+      },
+      {
+          "links": {
+              "self": "http://www.rijksmuseum.nl/api/en/collection/RP-P-1963-630",
+              "web": "http://www.rijksmuseum.nl/en/collection/RP-P-1963-630"
+          },
+          "id": "en-RP-P-1963-630",
+          "objectNumber": "RP-P-1963-630",
+          "title": "H. Christoffel en de kluizenaar",
+          "hasImage": true,
+          "principalOrFirstMaker": "anonymous",
+          "longTitle": "H. Christoffel en de kluizenaar, anonymous, 1506 - 1578",
+          "showImage": true,
+          "permitDownload": true,
+          "webImage": {
+              "guid": "62eb7c56-e12a-4b44-bbe9-e5e1708ed41e",
+              "offsetPercentageX": 0,
+              "offsetPercentageY": 0,
+              "width": 3776,
+              "height": 3072,
+              "url": "https://lh6.ggpht.com/d7mtmu4pqW0dT9B5ofX3aQldNoTsGZSB3w83ylyV5O3edcwLOf0pfksIJPUy1tvhSos-BLdj1TZZcqHcSAviCsjNya4=s0"
+          },
+          "headerImage": {
+              "guid": "0d37e6eb-5b83-40b1-b821-d5ae2af178fb",
+              "offsetPercentageX": 0,
+              "offsetPercentageY": 0,
+              "width": 1920,
+              "height": 460,
+              "url": "https://lh4.ggpht.com/Di7THz5jAH2KckJY49nT2PqdRP6a1PB2UKO9NTjcaEreVCayNDQI7U9RIUy64S_9OkIlh5OuxL9epqmAnFiRzrGU2LWB=s0"
+          },
+          "productionPlaces": [
+              "Low Countries",
+              "Antwerp",
+              "Den Bosch"
+          ]
+      },
+      {
+          "links": {
+              "self": "http://www.rijksmuseum.nl/api/en/collection/RP-P-1894-A-18402",
+              "web": "http://www.rijksmuseum.nl/en/collection/RP-P-1894-A-18402"
+          },
+          "id": "en-RP-P-1894-A-18402",
+          "objectNumber": "RP-P-1894-A-18402",
+          "title": "Laatste Oordeel",
+          "hasImage": true,
+          "principalOrFirstMaker": "anonymous",
+          "longTitle": "Laatste Oordeel, anonymous, 1520 - 1580",
+          "showImage": true,
+          "permitDownload": true,
+          "webImage": {
+              "guid": "1be89e82-fe79-41d7-a39b-e5434f65afc5",
+              "offsetPercentageX": 0,
+              "offsetPercentageY": 0,
+              "width": 3000,
+              "height": 2178,
+              "url": "https://lh4.ggpht.com/ghBzPq7obv1K7e91jQwumw4OHhDuHfjuCY12N9ljLAtE3EHsE1ZFTZK78vmL8P6we99QhNjZ5Wd9rfyTpeSgRlTWRI3v=s0"
+          },
+          "headerImage": {
+              "guid": "553289a9-fce8-403c-8ef7-85b9f26da5f3",
+              "offsetPercentageX": 0,
+              "offsetPercentageY": 0,
+              "width": 1920,
+              "height": 460,
+              "url": "https://lh5.ggpht.com/3rYTGcCBfB1X5jBcPpTM00iWQzuFfr__jmmXw9gZqb0-asniPx-6kZagqld4U63yxFpJMgawTm5A-bo_wx2Hkoj1ZIU=s0"
+          },
+          "productionPlaces": [
+              "Low Countries",
+              "Low Countries"
+          ]
+      },
+      {
+          "links": {
+              "self": "http://www.rijksmuseum.nl/api/en/collection/RP-P-1892-A-17506",
+              "web": "http://www.rijksmuseum.nl/en/collection/RP-P-1892-A-17506"
+          },
+          "id": "en-RP-P-1892-A-17506",
+          "objectNumber": "RP-P-1892-A-17506",
+          "title": "Goochelaar",
+          "hasImage": true,
+          "principalOrFirstMaker": "Balthazar van den Bos",
+          "longTitle": "Goochelaar, Balthazar van den Bos, 1528 - 1580",
+          "showImage": true,
+          "permitDownload": true,
+          "webImage": {
+              "guid": "819e29f5-8a1a-42b5-b475-9b290f800c77",
+              "offsetPercentageX": 0,
+              "offsetPercentageY": 0,
+              "width": 3000,
+              "height": 2217,
+              "url": "https://lh4.ggpht.com/FAIpEZL5j3eOztZf6XeeU_zU94W3YHyYUKjr6ycpS9bFZ0Jt9pqsr-1KE-HFA6mtb2EY6y6cyOoE8CA1lLDF_HnpHGVV=s0"
+          },
+          "headerImage": {
+              "guid": "671ae389-5727-4f8d-bb33-a034e2374f87",
+              "offsetPercentageX": 0,
+              "offsetPercentageY": 0,
+              "width": 1920,
+              "height": 460,
+              "url": "https://lh4.ggpht.com/FXS4oBk8Rbu1K-_w6Pjwq_MwhcKKQxZnzGGoUHr1GZpM_3To91D6Qz6XMA_1Mp-4eE_FiV7Y0vzOzuIzTdc8cyKD8FtM=s0"
+          },
+          "productionPlaces": [
+              "Antwerp"
+          ]
+      },
+      {
+          "links": {
+              "self": "http://www.rijksmuseum.nl/api/en/collection/SK-A-4252",
+              "web": "http://www.rijksmuseum.nl/en/collection/SK-A-4252"
+          },
+          "id": "en-SK-A-4252",
+          "objectNumber": "SK-A-4252",
+          "title": "Ecce Homo",
+          "hasImage": true,
+          "principalOrFirstMaker": "Jheronimus Bosch",
+          "longTitle": "Ecce Homo, Jheronimus Bosch (copy after), c. 1530 - c. 1550",
+          "showImage": true,
+          "permitDownload": true,
+          "webImage": {
+              "guid": "9315593e-78cc-42c1-a88e-848563cef386",
+              "offsetPercentageX": 0,
+              "offsetPercentageY": 0,
+              "width": 1891,
+              "height": 2592,
+              "url": "https://lh3.googleusercontent.com/4k2w6rNKdT_Y3XS44mR3p0xHWDiaNqsOf3s4hv-fqIpcGd-QSNp62b-0Q7rXPE4CFCzCfhp8XY4LKXCkQ6q55a2bUnF2=s0"
+          },
+          "headerImage": {
+              "guid": "1fd1b064-b5ce-4045-b5fb-6cd5158be644",
+              "offsetPercentageX": 0,
+              "offsetPercentageY": 0,
+              "width": 1891,
+              "height": 454,
+              "url": "https://lh3.googleusercontent.com/pZfIcMgQ6KA3M11sxvmXtsM0CwtMCySPOABgQxAiMMOBghycotRZj9uOxmk-1uZiDmt1Akgbur7epTGy34c8pB4ce4Om=s0"
+          },
+          "productionPlaces": []
+      },
+      {
+          "links": {
+              "self": "http://www.rijksmuseum.nl/api/en/collection/SK-A-3113",
+              "web": "http://www.rijksmuseum.nl/en/collection/SK-A-3113"
+          },
+          "id": "en-SK-A-3113",
+          "objectNumber": "SK-A-3113",
+          "title": "The Arrest of Christ",
+          "hasImage": true,
+          "principalOrFirstMaker": "Jheronimus Bosch",
+          "longTitle": "The Arrest of Christ, Jheronimus Bosch (manner of), c. 1530 - c. 1550",
+          "showImage": true,
+          "permitDownload": true,
+          "webImage": {
+              "guid": "27c1689d-8f74-4a1b-97db-df5aacbe336e",
+              "offsetPercentageX": 0,
+              "offsetPercentageY": 0,
+              "width": 2808,
+              "height": 1771,
+              "url": "https://lh6.ggpht.com/__44NKvwX_2LjMNmSOEGDuH2HBazU6sSJzyXd081KK6fb2WA7QaoonloifKRk8CNKHj4Dc9WznwnZwzM3dhk4Yi-lfU=s0"
+          },
+          "headerImage": {
+              "guid": "1fe861d2-fa17-4fa3-9aee-c53cb0188605",
+              "offsetPercentageX": 0,
+              "offsetPercentageY": 0,
+              "width": 1920,
+              "height": 460,
+              "url": "https://lh6.ggpht.com/5Ko4-YrT7byYIpcjcreO5ySNHS24GEg6RP5IaKiFI71x9R5CwPJ47PW0PHk0oKKXQ0WiTXlsYQtQR6igogGSknR-KQ=s0"
+          },
+          "productionPlaces": []
+      },
+      {
+          "links": {
+              "self": "http://www.rijksmuseum.nl/api/en/collection/SK-A-1795",
+              "web": "http://www.rijksmuseum.nl/en/collection/SK-A-1795"
+          },
+          "id": "en-SK-A-1795",
+          "objectNumber": "SK-A-1795",
+          "title": "The Temptation of St Anthony",
+          "hasImage": true,
+          "principalOrFirstMaker": "Jheronimus Bosch",
+          "longTitle": "The Temptation of St Anthony, Jheronimus Bosch (copy after), c. 1530 - c. 1600",
+          "showImage": true,
+          "permitDownload": true,
+          "webImage": {
+              "guid": "fafc0bf1-1d0e-4b6e-bc5b-17bf360753c7",
+              "offsetPercentageX": 0,
+              "offsetPercentageY": 0,
+              "width": 2856,
+              "height": 2242,
+              "url": "https://lh3.googleusercontent.com/oamd3sWqptBiQYOCkqieDU4PPwFpj91BSRU16lO2y8ew6XOXV6Ev4Pw53wkHMxbhJekjbIbkG_c7WZ5jz3z9a_ZyYmk=s0"
+          },
+          "headerImage": {
+              "guid": "ca81745a-a26b-4d4a-a5fa-aa863029fa57",
+              "offsetPercentageX": 0,
+              "offsetPercentageY": 0,
+              "width": 1920,
+              "height": 460,
+              "url": "https://lh3.googleusercontent.com/9BxdC9AhLj2iJNWKgD484tjfPC7a6ia-NgoDSKDDgi9bnahweK5JgoolxJVfMOsG9taZdjBBgx15E1VsGp6Cl1QuuQ=s0"
+          },
+          "productionPlaces": []
+      },
+      {
+          "links": {
+              "self": "http://www.rijksmuseum.nl/api/en/collection/RP-P-OB-78.811",
+              "web": "http://www.rijksmuseum.nl/en/collection/RP-P-OB-78.811"
+          },
+          "id": "en-RP-P-OB-78.811",
+          "objectNumber": "RP-P-OB-78.811",
+          "title": "Familie van narren",
+          "hasImage": true,
+          "principalOrFirstMaker": "anonymous",
+          "longTitle": "Familie van narren, anonymous, 1530 - 1570",
+          "showImage": true,
+          "permitDownload": true,
+          "webImage": {
+              "guid": "691bce95-a200-4a7f-9742-9cde98217221",
+              "offsetPercentageX": 0,
+              "offsetPercentageY": 0,
+              "width": 2886,
+              "height": 2310,
+              "url": "https://lh3.googleusercontent.com/fFm06qT5GgA9vAwmRkyoxQQ5ozqwCOJpV6zZqTRd0M92TybDi6XZYnBTRYFpTemHdpyLb6unN3f-ikevE9uB9BNN-L8=s0"
+          },
+          "headerImage": {
+              "guid": "8ae8ee9e-344b-4606-9db3-2e8988fc54ad",
+              "offsetPercentageX": 0,
+              "offsetPercentageY": 0,
+              "width": 1920,
+              "height": 460,
+              "url": "https://lh3.googleusercontent.com/oevnJ22ufi4i8ACHmkZYLh64dTnDZK4FtlUsT0oSFLxlJHIkZF_5NHcMiZ7abUwZuCa62rCxW05YpCEIwUW9lcWxPGw5=s0"
+          },
+          "productionPlaces": [
+              "Southern Netherlands"
+          ]
+      }
+  ],
+  "facets": [
+      {
+          "facets": [
+              {
+                  "key": "anonymous",
+                  "value": 18
+              },
+              {
+                  "key": "Pieter van der Heyden",
+                  "value": 12
+              },
+              {
+                  "key": "Jheronimus Bosch",
+                  "value": 8
+              },
+              {
+                  "key": "Frans Huys",
+                  "value": 3
+              },
+              {
+                  "key": "Alart du Hameel",
+                  "value": 2
+              },
+              {
+                  "key": "Wierix",
+                  "value": 2
+              },
+              {
+                  "key": "Alexandre (fotograaf)",
+                  "value": 1
+              },
+              {
+                  "key": "Balthazar van den Bos",
+                  "value": 1
+              },
+              {
+                  "key": "Hendrick Hondius (I)",
+                  "value": 1
+              },
+              {
+                  "key": "Johann Theodor de Bry",
+                  "value": 1
+              }
+          ],
+          "name": "principalMaker",
+          "otherTerms": 49,
+          "prettyName": 10
+      },
+      {
+          "facets": [
+              {
+                  "key": "print",
+                  "value": 40
+              },
+              {
+                  "key": "painting",
+                  "value": 8
+              },
+              {
+                  "key": "photograph",
+                  "value": 1
+              }
+          ],
+          "name": "type",
+          "otherTerms": 0,
+          "prettyName": 3
+      },
+      {
+          "facets": [
+              {
+                  "key": "16",
+                  "value": 37
+              },
+              {
+                  "key": "17",
+                  "value": 8
+              },
+              {
+                  "key": "15",
+                  "value": 3
+              },
+              {
+                  "key": "19",
+                  "value": 1
+              }
+          ],
+          "name": "dating.period",
+          "otherTerms": 0,
+          "prettyName": 4
+      },
+      {
+          "facets": [
+              {
+                  "key": "Antwerp",
+                  "value": 24
+              },
+              {
+                  "key": "Low Countries",
+                  "value": 17
+              },
+              {
+                  "key": "Den Bosch",
+                  "value": 14
+              },
+              {
+                  "key": "Southern Netherlands",
+                  "value": 5
+              },
+              {
+                  "key": "Netherlands",
+                  "value": 2
+              },
+              {
+                  "key": "Northern Netherlands",
+                  "value": 1
+              },
+              {
+                  "key": "Paris",
+                  "value": 1
+              }
+          ],
+          "name": "place",
+          "otherTerms": 0,
+          "prettyName": 2
+      },
+      {
+          "facets": [
+              {
+                  "key": "paper",
+                  "value": 40
+              },
+              {
+                  "key": "oil paint (paint)",
+                  "value": 8
+              },
+              {
+                  "key": "panel",
+                  "value": 8
+              },
+              {
+                  "key": "photographic support",
+                  "value": 1
+              }
+          ],
+          "name": "material",
+          "otherTerms": 0,
+          "prettyName": 5
+      },
+      {
+          "facets": [
+              {
+                  "key": "engraving",
+                  "value": 38
+              },
+              {
+                  "key": "etching",
+                  "value": 4
+              },
+              {
+                  "key": "albumen print",
+                  "value": 1
+              },
+              {
+                  "key": "brush",
+                  "value": 1
+              },
+              {
+                  "key": "letterpress printing",
+                  "value": 1
+              }
+          ],
+          "name": "technique",
+          "otherTerms": 0,
+          "prettyName": 8
+      },
+      {
+          "facets": [
+              {
+                  "key": " #2F4F4F",
+                  "value": 13
+              },
+              {
+                  "key": " #737C84",
+                  "value": 12
+              },
+              {
+                  "key": " #E0CC91",
+                  "value": 8
+              },
+              {
+                  "key": " #FBF6E1",
+                  "value": 8
+              },
+              {
+                  "key": " #000000",
+                  "value": 6
+              },
+              {
+                  "key": "#FBF6E1",
+                  "value": 6
+              },
+              {
+                  "key": "#E0CC91",
+                  "value": 5
+              },
+              {
+                  "key": "#737C84",
+                  "value": 3
+              },
+              {
+                  "key": "#B35A1F",
+                  "value": 3
+              },
+              {
+                  "key": " #B35A1F",
+                  "value": 2
+              },
+              {
+                  "key": " #981313",
+                  "value": 1
+              },
+              {
+                  "key": " #B5BFCC",
+                  "value": 1
+              },
+              {
+                  "key": "#000000",
+                  "value": 1
+              }
+          ],
+          "name": "normalized32Colors.hex",
+          "otherTerms": 69,
+          "prettyName": 9
+      }
+  ]
+}
