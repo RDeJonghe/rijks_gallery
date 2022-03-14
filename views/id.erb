@@ -1,16 +1,20 @@
-<h2> Work of Art </h2>
+<h2> <%= @full_name %> (attributed works included) </h2>
 <hr>
-<h3> ID Works </h3>
-<%= @long_title %>
+<h3> Principal or First Maker </h3>
 
+<%= find_maker %>
+
+<h3> Title </h3>
+
+<%= find_title %>
+
+
+<h3> Production Year(s) </h3>
+<%= find_production_years %>
 <hr>
-  <center><img src=<%= @image %> width=1000px alt="collection image" ></center>
+
+<center><img src=<%= @image %> width=1000px alt="collection image" ></center>
 <hr>
-
-
-
-
-
-
-<!-- Use to see data structure -->
-<!-- <p> <%# @users %> </p> -->
+<a href=/<%= @artist %>> Current Artist </a>
+<hr>
+<a href=/artists > Artist List </a>

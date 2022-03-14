@@ -11,6 +11,13 @@ helpers do
     "van_gogh" => "./public/van_gogh.json"
   }
 
+  FULL_NAME = {
+    "bosch" => "Jheronimus Bosch",
+    "rembrandt" => "Rembrandt van Rijn",
+    "ter_brugghen" => "Hendrick ter Brugghen",
+    "van_gogh" => "Vincent van Gogh"
+  }
+
   def convert_json_to_hash
     json_obj = File.read(@file_path)
     ruby_hsh = JSON.parse(json_obj)
@@ -37,6 +44,18 @@ helpers do
     @art_objects.select { |art_obj| art_obj["id"] == @id }[0]["longTitle"]
   end
 
+  def find_maker
+    @art_objects.select { |art_obj| art_obj["id"] == @id }[0]["principalOrFirstMaker"]
+  end
+
+  def find_production_years
+    @art_objects.select { |art_obj| art_obj["id"] == @id }[0]["longTitle"].split(',')[2]
+  end
+
+  def find_title
+    @art_objects.select { |art_obj| art_obj["id"] == @id }[0]["title"]
+  end
+
   def find_id_of_title(title)
     @art_objects.select do |art_object|
       art_object["title"] == title
@@ -61,16 +80,18 @@ end
 
 get '/:artist' do
   @artist = params[:artist]
+  @full_name = FULL_NAME[@artist]
   @file_path = ARTIST_FILE[@artist]
   @collection = convert_json_to_hash
   @art_objects = @collection["artObjects"]
   @titles = find_titles
-  
+
   erb :artist
 end
 
 get '/:artist/:id' do
   @artist = params[:artist]
+  @full_name = FULL_NAME[@artist]
   @id = params[:id]
   @file_path = ARTIST_FILE[@artist]
   @collection = convert_json_to_hash

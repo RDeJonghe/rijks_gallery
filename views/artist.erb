@@ -1,6 +1,4 @@
-<h2> Aritst Collection </h2>
-
-<p><%= @artist %></p>
+<h2><%= @full_name %> (attributed works included) </h2>
 
 <ul>
   <% @titles.each do |title| %>
@@ -8,5 +6,6 @@
   <% end %>
 </ul>
 
+<hr>
+<a href= /artists > Artist List </a>
 
-<p><%= @titles %></p>

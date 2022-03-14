@@ -1,12 +1,17 @@
 
 body {
   font-family: optima;
+  color: whitesmoke;
+  background-color: lightslategray;
 }
 div { 
   color: red; 
   text-indent: 2%
 }
 .end {
+  text-align: center;
+}
+.links {
   text-align: center;
 }
 .info {
