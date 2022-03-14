@@ -5,10 +5,10 @@ require "json"
 
 helpers do
   ARTIST_FILE = {
-    "bosch" => "./public/bosch.json",
-    "rembrandt" => "./public/rembrandt.json",
-    "ter_brugghen" => "./public/ter_brugghen.json",
-    "van_gogh" => "./public/van_gogh.json"
+    "bosch" => "./public/artists/bosch.json",
+    "rembrandt" => "./public/artists/rembrandt.json",
+    "ter_brugghen" => "./public/artists/ter_brugghen.json",
+    "van_gogh" => "./public/artists/van_gogh.json"
   }
 
   FULL_NAME = {

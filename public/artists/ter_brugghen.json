@@ -74,37 +74,6 @@
       },
       {
           "links": {
-              "self": "http://www.rijksmuseum.nl/api/en/collection/RP-P-1889-A-14846",
-              "web": "http://www.rijksmuseum.nl/en/collection/RP-P-1889-A-14846"
-          },
-          "id": "en-RP-P-1889-A-14846",
-          "objectNumber": "RP-P-1889-A-14846",
-          "title": "Man met miniatuurportret in de hand",
-          "hasImage": true,
-          "principalOrFirstMaker": "Theodor Matham",
-          "longTitle": "Man met miniatuurportret in de hand, Theodor Matham, 1615 - 1726",
-          "showImage": true,
-          "permitDownload": true,
-          "webImage": {
-              "guid": "7c7ca53b-0bc8-4aaf-bfe5-53407bd215e9",
-              "offsetPercentageX": 0,
-              "offsetPercentageY": 0,
-              "width": 1960,
-              "height": 2500,
-              "url": "https://lh3.ggpht.com/OY5L-jtSiGcmqO-LjX4Gkay4BR2SxoZ0U5YgTzAr-DSFvYvWnqt2hk1WLFroPYMXaBBXvdRL2TWZ1KnmeviNNpeauEBd=s0"
-          },
-          "headerImage": {
-              "guid": "8853fb33-1ea2-42cd-9dd0-fb54143e3a1d",
-              "offsetPercentageX": 0,
-              "offsetPercentageY": 0,
-              "width": 1920,
-              "height": 460,
-              "url": "https://lh5.ggpht.com/GWJnAS5G7Ob5gYcbBJ1aLOmgrTXQAwtkhwcmiEeBkERlt_sWe7JS4dDfCFTO1EM9sRywM0KltPxuiFL_9JzyiF8PJA=s0"
-          },
-          "productionPlaces": []
-      },
-      {
-          "links": {
               "self": "http://www.rijksmuseum.nl/api/en/collection/RP-P-1882-A-6434",
               "web": "http://www.rijksmuseum.nl/en/collection/RP-P-1882-A-6434"
           },
@@ -131,37 +100,6 @@
               "width": 1919,
               "height": 460,
               "url": "https://lh5.ggpht.com/2SJles_4WK78E6pxugZQcflBzlKxtJshgYI5BCUMdoLN3TJc8JaYlc-fBTrRz6e1UME-I76zY7g0DLyiH-phmZTnIHIX=s0"
-          },
-          "productionPlaces": []
-      },
-      {
-          "links": {
-              "self": "http://www.rijksmuseum.nl/api/en/collection/RP-P-2000-181",
-              "web": "http://www.rijksmuseum.nl/en/collection/RP-P-2000-181"
-          },
-          "id": "en-RP-P-2000-181",
-          "objectNumber": "RP-P-2000-181",
-          "title": "Man met viool en roemer",
-          "hasImage": true,
-          "principalOrFirstMaker": "Theodor Matham",
-          "longTitle": "Man met viool en roemer, Theodor Matham, 1615 - 1726",
-          "showImage": true,
-          "permitDownload": true,
-          "webImage": {
-              "guid": "893bb56c-9781-48ef-9321-ecd5c81bfee1",
-              "offsetPercentageX": 0,
-              "offsetPercentageY": 0,
-              "width": 1852,
-              "height": 2500,
-              "url": "https://lh5.ggpht.com/313E8UnRkjyKptQoEAHPhQhDKm_Eb0pTwQzBKm7-LgMQpPE8pclIeTUqmFxxXbBZRt21_TNmTzVX-nCcudAYuNPZEegA=s0"
-          },
-          "headerImage": {
-              "guid": "f831203d-c7c7-4636-b2cb-c9792b089045",
-              "offsetPercentageX": 0,
-              "offsetPercentageY": 0,
-              "width": 1920,
-              "height": 460,
-              "url": "https://lh5.ggpht.com/07BiiCPQjIDlsmBgLvWnIVl2wV-_qK7y9CwnMaATsrqGqAZ0nJXCxKHF0aOMNcOteSwiYfPbN-IjCJKhAAmkIzrHVgYG=s0"
           },
           "productionPlaces": []
       },

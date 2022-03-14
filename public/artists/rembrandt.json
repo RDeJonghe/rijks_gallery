@@ -196,39 +196,6 @@
       },
       {
           "links": {
-              "self": "http://www.rijksmuseum.nl/api/en/collection/RP-P-OB-102.232",
-              "web": "http://www.rijksmuseum.nl/en/collection/RP-P-OB-102.232"
-          },
-          "id": "en-RP-P-OB-102.232",
-          "objectNumber": "RP-P-OB-102.232",
-          "title": "Christus in gesprek met Nikodemus",
-          "hasImage": true,
-          "principalOrFirstMaker": "Pieter Fransz de Grebber",
-          "longTitle": "Christus in gesprek met Nikodemus, Pieter Fransz de Grebber, 1610 - 1655",
-          "showImage": true,
-          "permitDownload": true,
-          "webImage": {
-              "guid": "dc39e980-4705-420d-8174-d0cfb6cb4bdc",
-              "offsetPercentageX": 0,
-              "offsetPercentageY": 0,
-              "width": 2138,
-              "height": 2706,
-              "url": "https://lh3.ggpht.com/HkRzrowjqHdTVxAvn2KV9Jm1UXVMYZKbNvDDf1-48TwPWJ8ZzppJh519PtV4Sdd2oLUvbp-YQUuwEous1CGL5Mvis2YX=s0"
-          },
-          "headerImage": {
-              "guid": "c47e7b82-4f9b-420a-bcef-776c11a645b1",
-              "offsetPercentageX": 0,
-              "offsetPercentageY": 0,
-              "width": 1920,
-              "height": 460,
-              "url": "https://lh4.ggpht.com/C65eAX9Mwuhq_7kk92rC-biQ5iZqtbNmMt0b19A02KtghxYQAVod2U5p4YU9ZhNY4usS7e-q5ChS3-35FGaHSnKzZQ=s0"
-          },
-          "productionPlaces": [
-              "Netherlands"
-          ]
-      },
-      {
-          "links": {
               "self": "http://www.rijksmuseum.nl/api/en/collection/RP-P-1908-2029",
               "web": "http://www.rijksmuseum.nl/en/collection/RP-P-1908-2029"
           },
