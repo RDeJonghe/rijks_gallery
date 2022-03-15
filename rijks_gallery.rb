@@ -62,10 +62,10 @@ get '/' do
 end
 
 get '/artists' do
-  erb :artists
+  erb :artists2
 end
 
-get '/:artist' do
+get '/artists/:artist' do
   @artist = params[:artist]
   @file_path = ARTIST_FILE[@artist]
   @collection = convert_json_to_hash
@@ -75,7 +75,7 @@ get '/:artist' do
   erb :artist
 end
 
-get '/:artist/:id' do
+get '/artists/:artist/:id' do
   @artist = params[:artist]
   @id = params[:id]
   @file_path = ARTIST_FILE[@artist]
