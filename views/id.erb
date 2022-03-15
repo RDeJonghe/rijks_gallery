@@ -15,9 +15,9 @@
 
 <center><img src=<%= @image %> width=1000px alt="collection image" ></center>
 <hr>
-<a href="/artists/<%= @artist %>">Current Artist</a>
+<a href="/artists/<%= @artist %>">Works of Current Artist</a>
 <hr>
-<a href="/artists">Artist List</a>
+<a href="/artists">All Artists</a>
 
 <hr>
 <% if session[:favorites].none? { |favorite| favorite[:url] == @url } %>
