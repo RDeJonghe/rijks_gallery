@@ -105,4 +105,18 @@ get '/favorites' do
   erb :favorites
 end
 
+# get '/favorites/new' do
+#   # session[:favorites] << { long_title: "Chairs in a room", url: "link here" } THIS WAS FOR TESTING
+#   # redirect "/favorites"
+
+#   erb: :new_favorite, layout: :layout
+# end
+
+get '/artists/:artist/:id/add_favorite' do
+  session[:favorites] << { long_title: "Chairs in a room", url: "link here" }
+  redirect "/favorites"
+
+  # erb: :add_favorite, layout: :layout
+end
+
 
