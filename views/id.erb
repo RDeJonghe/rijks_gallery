@@ -1,28 +1,28 @@
-<h2> <%= FULL_NAME[@artist] %> (attributed works included) </h2>
+<h2> 
+<%= FULL_NAME[@artist] %> (attributed works included) 
+<a class ="right" href="/artists/<%= @artist %>"><button>Works of Current Artist</button></a>
+<a class ="right" href="/artists"><button>All Artists</button></a>
+
+<% if session[:favorites].none? { |favorite| favorite[:url] == @url } %>
+  <a class="right" href="/artists/<%= @artist %>/<%= @id %>/add_favorite"><button>Add to Favorites</button></a>
+<% end %>
+</h2>
 <hr>
 <h3> Principal or First Maker </h3>
 
-<%= find_maker %>
+<p class="indent"><%= find_maker %></p>
 
 <h3> Title </h3>
 
-<%= find_title %>
+<p class="indent"><%= find_title %></p>
 
 
-<h3> Production Year(s) </h3>
-<%= find_production_years %>
-<hr>
+<h3> Produced </h3>
+<p class="indent"><%= find_production_years %></p>
+<br>
+<br>
 
 <center><img src=<%= @image %> width=1000px alt="collection image" ></center>
-<hr>
-<a href="/artists/<%= @artist %>">Works of Current Artist</a>
-<hr>
-<a href="/artists">All Artists</a>
-
-<hr>
-<% if session[:favorites].none? { |favorite| favorite[:url] == @url } %>
-<a href="/artists/<%= @artist %>/<%= @id %>/add_favorite">Add to Favorites</a>
-<% end %>
 
 
 

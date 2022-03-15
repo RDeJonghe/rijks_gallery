@@ -98,20 +98,9 @@ end
 
 get '/favorites' do
   @favorites = session[:favorites]
-  # @favorites = [ HARD CODED TO SEE
-  #   { long_title: "Ocean View, Vincent van Gogh, 1899", url: "url_fav1"},
-  #   { long_title: "Mountaing View, Vincent van Gogh, 1888", url: "url_fav2"}
-  # ]
 
   erb :favorites
 end
-
-# get '/favorites/new' do
-#   # session[:favorites] << { long_title: "Chairs in a room", url: "link here" } THIS WAS FOR TESTING
-#   # redirect "/favorites"
-
-#   erb: :new_favorite, layout: :layout
-# end
 
 get '/artists/:artist/:id/add_favorite' do
   @artist = params[:artist]

@@ -1,4 +1,7 @@
-<h2> My Favorites </h2>
+<h2> 
+  My Favorites
+  <a class="right" href="/artists"><button>All Artists</button></a> 
+</h2>
 <hr>
 <ul>
   <% if @favorites.empty? %>
@@ -9,6 +12,4 @@
     <% end %>
   <% end %>
 </ul>
-<hr>
-<a href="/artists">All Artists</a>
 
