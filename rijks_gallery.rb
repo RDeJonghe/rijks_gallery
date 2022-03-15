@@ -68,7 +68,6 @@ end
 get '/artists/:artist' do
   @artist = params[:artist]
   @file_path = ARTIST_FILE[@artist]
-  # @collection = convert_json_to_hash
   @art_objects = convert_json_to_hash["artObjects"]
   @titles = find_titles
 
@@ -79,7 +78,6 @@ get '/artists/:artist/:id' do
   @artist = params[:artist]
   @id = params[:id]
   @file_path = ARTIST_FILE[@artist]
-  # @collection = convert_json_to_hash
   @art_objects = convert_json_to_hash["artObjects"]
   @image = find_image
   @long_title = find_long_title
@@ -88,6 +86,10 @@ get '/artists/:artist/:id' do
 end
 
 get '/favorites' do
+  @favorites = [
+    { long_title: "Ocean View, Vincent van Gogh, 1899", url: "url_fav1"},
+    { long_title: "Mountaing View, Vincent van Gogh, 1888", url: "url_fav2"}
+  ]
 
   erb :favorites
 end

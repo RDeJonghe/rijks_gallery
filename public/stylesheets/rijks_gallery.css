@@ -5,8 +5,9 @@ body {
   background-color: lightslategray;
 }
 div { 
-  color: red; 
-  text-indent: 2%
+  font-family: optima;
+  color: whitesmoke;
+  background-color: lightslategray;
 }
 .end {
   text-align: center;
