@@ -86,3 +86,8 @@ get '/artists/:artist/:id' do
 
   erb :id
 end
+
+get '/favorites' do
+
+  erb :favorites
+end
