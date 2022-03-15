@@ -67,7 +67,7 @@ end
 
 get '/:artist' do
   @artist = params[:artist]
-  @full_name = FULL_NAME[@artist]
+  #@full_name = FULL_NAME[@artist]
   @file_path = ARTIST_FILE[@artist]
   @collection = convert_json_to_hash
   @art_objects = @collection["artObjects"]
@@ -78,7 +78,7 @@ end
 
 get '/:artist/:id' do
   @artist = params[:artist]
-  @full_name = FULL_NAME[@artist]
+  #@full_name = FULL_NAME[@artist]
   @id = params[:id]
   @file_path = ARTIST_FILE[@artist]
   @collection = convert_json_to_hash
