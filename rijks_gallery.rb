@@ -3,6 +3,11 @@ require "sinatra/reloader" if development?
 require "tilt/erubis"
 require "json"
 
+configure do
+  enable :sessions
+  set :session_secret, 'secret'
+end
+
 helpers do
   ARTIST_FILE = {
     "bosch" => "./public/artists/bosch.json",
@@ -57,6 +62,11 @@ helpers do
   end
 end
 
+before do
+  session[:favorites] ||= []
+
+end
+
 get '/' do
   redirect '/artists'
 end
@@ -86,10 +96,13 @@ get '/artists/:artist/:id' do
 end
 
 get '/favorites' do
-  @favorites = [
-    { long_title: "Ocean View, Vincent van Gogh, 1899", url: "url_fav1"},
-    { long_title: "Mountaing View, Vincent van Gogh, 1888", url: "url_fav2"}
-  ]
+  @favorites = session[:favorites]
+  # @favorites = [ HARD CODED TO SEE
+  #   { long_title: "Ocean View, Vincent van Gogh, 1899", url: "url_fav1"},
+  #   { long_title: "Mountaing View, Vincent van Gogh, 1888", url: "url_fav2"}
+  # ]
 
   erb :favorites
 end
+
+

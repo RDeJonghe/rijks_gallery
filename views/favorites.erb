@@ -1,8 +1,12 @@
 <h2> My Favorites </h2>
 <hr>
 <ul>
-  <% @favorites.each do |favorite| %>
-    <li><a href=<%= favorite[:url] %>><%= favorite[:long_title] %></a></li>
+  <% if @favorites.empty? %>
+    <%= @favorites %>
+  <% else %>
+    <% @favorites.each do |favorite| %>
+      <li><a href=<%= favorite[:url] %>><%= favorite[:long_title] %></a></li>
+    <% end %>
   <% end %>
 </ul>
 
