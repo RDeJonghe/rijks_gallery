@@ -18,7 +18,11 @@
 <a href="/artists/<%= @artist %>">Current Artist</a>
 <hr>
 <a href="/artists">Artist List</a>
+
 <hr>
+<% if session[:favorites].none? { |favorite| favorite[:url] == @url } %>
 <a href="/artists/<%= @artist %>/<%= @id %>/add_favorite">Add to Favorites</a>
+<% end %>
+
 
 

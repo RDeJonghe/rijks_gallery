@@ -60,11 +60,11 @@ helpers do
       art_object["title"] == title
     end[0]["id"]
   end
+
 end
 
 before do
   session[:favorites] ||= []
-
 end
 
 get '/' do
@@ -87,6 +87,7 @@ end
 get '/artists/:artist/:id' do
   @artist = params[:artist]
   @id = params[:id]
+  @url = "/artists/#{@artist}/#{@id}"
   @file_path = ARTIST_FILE[@artist]
   @art_objects = convert_json_to_hash["artObjects"]
   @image = find_image
@@ -121,7 +122,6 @@ get '/artists/:artist/:id/add_favorite' do
   @image = find_image
   @long_title = find_long_title
 
-  # erb :add_favorite, layout: :layout
   session[:favorites] << { long_title: @long_title, url: @url }
   redirect "/favorites"
 end
