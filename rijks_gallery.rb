@@ -141,11 +141,6 @@ get '/notes' do
   erb :notes
 end
 
-# get '/notes/new_note' do THIS WAS HARDCODED FOR PRACTICE, USES FORM BELOW
-#   session[:notes] << { name: "first-note", text: [] }
-#   redirect "/notes"
-# end
-
 get '/notes/new_note' do
   erb :new_note
 end
@@ -159,6 +154,14 @@ end
 
 post '/notes' do
   session[:notes] << { name: params[:name], text: params[:text] }
+  redirect '/notes'
+end
+
+get '/notes/:note/delete' do
+  @notes = session[:notes]
+  @name = params[:note]
+  @current_note = find_current_note
+  session[:notes].delete_if { |note| note[:name] == @current_note[0][:name] }
   redirect '/notes'
 end
 
