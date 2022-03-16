@@ -1,0 +1,29 @@
+<h2> 
+  New Note 
+  <a class="right" href="/notes"><button>Cancel</button></a>
+</h2>
+<hr>
+<form action="/notes" method="post" id="userform">
+  <dl>
+    <dt>
+      <label for="name">Enter the name for your new note:</label>
+    </dt>
+    <br>
+    <dd>
+      <input class="txt" name="name" placeholder="Note Name" type="text" value="">
+    </dd>
+  </dl>
+  <br>
+  <dl>
+  <dt>
+    <label for="name">Enter the text for your new note :</label>
+  </dt>
+  <br>
+  <dd>
+    <input class="txtbox" name="text" placeholder="Note Content" type="text" value="">
+  </dd>
+</dl>
+    <input type="submit" value="Save">
+    <a href="/notes"><button>Cancel</button></a>
+</form>
+

@@ -61,10 +61,17 @@ helpers do
     end[0]["id"]
   end
 
+  def find_current_note
+    @notes.select do |note|
+      note[:name] == @name
+    end
+  end
+
 end
 
 before do
   session[:favorites] ||= []
+  session[:notes] ||= []
 end
 
 get '/' do
@@ -126,6 +133,33 @@ get '/artists/:artist/:id/remove_favorite' do
 
   session[:favorites].delete_if { |favorite| favorite[:url] == @url }
   redirect "/favorites"
+end
+
+get '/notes' do
+  @notes = session[:notes]
+    
+  erb :notes
+end
+
+# get '/notes/new_note' do THIS WAS HARDCODED FOR PRACTICE, USES FORM BELOW
+#   session[:notes] << { name: "first-note", text: [] }
+#   redirect "/notes"
+# end
+
+get '/notes/new_note' do
+  erb :new_note
+end
+
+get '/notes/:note' do
+  @notes = session[:notes]
+  @name = params[:note]
+  @current_note = find_current_note
+  erb :note
+end
+
+post '/notes' do
+  session[:notes] << { name: params[:name], text: params[:text] }
+  redirect '/notes'
 end
 
 

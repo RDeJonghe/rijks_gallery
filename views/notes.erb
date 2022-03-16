@@ -1,0 +1,17 @@
+<h2> 
+  My Notes
+  <a class="right" href="/artists"><button>All Artists</button></a> 
+  <a class="right" href="/notes/new_note"><button>Create New Note</button></a> 
+</h2>
+<hr>
+<ul>
+  <% if @notes.empty? %>
+    <p>You do not have any notes</p>
+  <% else %>
+    <% @notes.each do |note| %>
+      <li><a href="/notes/<%= note[:name] %>"><%= note[:name] %></a></li>
+    <% end %>
+  <% end %>
+</ul>
+<p><%= @current_note %></p>
+

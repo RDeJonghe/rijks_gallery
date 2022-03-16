@@ -30,3 +30,15 @@ div {
 .left {
   float: left;
 }
+
+.txt {
+  font-family: optima;
+  font-size: 16px;
+}
+
+.txtbox {
+  font-family: optima;
+  font-size: 16px;
+  height: 60px;
+  width : 1200px;
+}
