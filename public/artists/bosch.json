@@ -15,8 +15,8 @@
           "objectNumber": "RP-P-OB-1098",
           "title": "Heilige Christoffel",
           "hasImage": true,
-          "principalOrFirstMaker": "Alart du Hameel",
-          "longTitle": "Heilige Christoffel, Alart du Hameel, 1459 - 1509",
+          "principalOrFirstMaker": "Alart du Hameel / Jheronimus Bosch",
+          "longTitle": "Heilige Christoffel, Alart du Hameel / Jheronimus Bosch, 1459 - 1509",
           "showImage": true,
           "permitDownload": true,
           "webImage": {
@@ -48,8 +48,8 @@
           "objectNumber": "RP-P-OB-3080",
           "title": "Leprozenbedelaar in de gedaante van de Duivel",
           "hasImage": true,
-          "principalOrFirstMaker": "anonymous",
-          "longTitle": "Leprozenbedelaar in de gedaante van de Duivel, anonymous, 1474 - 1566",
+          "principalOrFirstMaker": "anonymous / Jheronimus Bosch",
+          "longTitle": "Leprozenbedelaar in de gedaante van de Duivel, anonymous / Jheronimus Bosch, 1474 - 1566",
           "showImage": true,
           "permitDownload": true,
           "webImage": {
@@ -82,8 +82,8 @@
           "objectNumber": "RP-P-1878-A-2523",
           "title": "Laatste Oordeel",
           "hasImage": true,
-          "principalOrFirstMaker": "Alart du Hameel",
-          "longTitle": "Laatste Oordeel, Alart du Hameel, 1478 - 1509",
+          "principalOrFirstMaker": "Alart du Hameel / Jheronimus Bosch",
+          "longTitle": "Laatste Oordeel, Alart du Hameel / Jheronimus Bosch, 1478 - 1509",
           "showImage": true,
           "permitDownload": true,
           "webImage": {
@@ -115,8 +115,8 @@
           "objectNumber": "RP-P-1963-630",
           "title": "H. Christoffel en de kluizenaar",
           "hasImage": true,
-          "principalOrFirstMaker": "anonymous",
-          "longTitle": "H. Christoffel en de kluizenaar, anonymous, 1506 - 1578",
+          "principalOrFirstMaker": "anonymous / Jheronimus Bosch",
+          "longTitle": "H. Christoffel en de kluizenaar, anonymous / Jheronimus Bosch, 1506 - 1578",
           "showImage": true,
           "permitDownload": true,
           "webImage": {
@@ -143,40 +143,6 @@
       },
       {
           "links": {
-              "self": "http://www.rijksmuseum.nl/api/en/collection/RP-P-1894-A-18402",
-              "web": "http://www.rijksmuseum.nl/en/collection/RP-P-1894-A-18402"
-          },
-          "id": "en-RP-P-1894-A-18402",
-          "objectNumber": "RP-P-1894-A-18402",
-          "title": "Laatste Oordeel",
-          "hasImage": true,
-          "principalOrFirstMaker": "anonymous",
-          "longTitle": "Laatste Oordeel, anonymous, 1520 - 1580",
-          "showImage": true,
-          "permitDownload": true,
-          "webImage": {
-              "guid": "1be89e82-fe79-41d7-a39b-e5434f65afc5",
-              "offsetPercentageX": 0,
-              "offsetPercentageY": 0,
-              "width": 3000,
-              "height": 2178,
-              "url": "https://lh4.ggpht.com/ghBzPq7obv1K7e91jQwumw4OHhDuHfjuCY12N9ljLAtE3EHsE1ZFTZK78vmL8P6we99QhNjZ5Wd9rfyTpeSgRlTWRI3v=s0"
-          },
-          "headerImage": {
-              "guid": "553289a9-fce8-403c-8ef7-85b9f26da5f3",
-              "offsetPercentageX": 0,
-              "offsetPercentageY": 0,
-              "width": 1920,
-              "height": 460,
-              "url": "https://lh5.ggpht.com/3rYTGcCBfB1X5jBcPpTM00iWQzuFfr__jmmXw9gZqb0-asniPx-6kZagqld4U63yxFpJMgawTm5A-bo_wx2Hkoj1ZIU=s0"
-          },
-          "productionPlaces": [
-              "Low Countries",
-              "Low Countries"
-          ]
-      },
-      {
-          "links": {
               "self": "http://www.rijksmuseum.nl/api/en/collection/RP-P-1892-A-17506",
               "web": "http://www.rijksmuseum.nl/en/collection/RP-P-1892-A-17506"
           },
@@ -184,8 +150,8 @@
           "objectNumber": "RP-P-1892-A-17506",
           "title": "Goochelaar",
           "hasImage": true,
-          "principalOrFirstMaker": "Balthazar van den Bos",
-          "longTitle": "Goochelaar, Balthazar van den Bos, 1528 - 1580",
+          "principalOrFirstMaker": "Balthazar van den Bos / Jheronimus Bosch",
+          "longTitle": "Goochelaar, Balthazar van den Bos / Jheronimus Bosch, 1528 - 1580",
           "showImage": true,
           "permitDownload": true,
           "webImage": {
@@ -218,7 +184,7 @@
           "title": "Ecce Homo",
           "hasImage": true,
           "principalOrFirstMaker": "Jheronimus Bosch",
-          "longTitle": "Ecce Homo, Jheronimus Bosch (copy after), c. 1530 - c. 1550",
+          "longTitle": "Ecce Homo, Jheronimus Bosch, c. 1530 - c. 1550",
           "showImage": true,
           "permitDownload": true,
           "webImage": {
@@ -249,7 +215,7 @@
           "title": "The Arrest of Christ",
           "hasImage": true,
           "principalOrFirstMaker": "Jheronimus Bosch",
-          "longTitle": "The Arrest of Christ, Jheronimus Bosch (manner of), c. 1530 - c. 1550",
+          "longTitle": "The Arrest of Christ, Jheronimus Bosch, c. 1530 - c. 1550",
           "showImage": true,
           "permitDownload": true,
           "webImage": {
@@ -280,7 +246,7 @@
           "title": "The Temptation of St Anthony",
           "hasImage": true,
           "principalOrFirstMaker": "Jheronimus Bosch",
-          "longTitle": "The Temptation of St Anthony, Jheronimus Bosch (copy after), c. 1530 - c. 1600",
+          "longTitle": "The Temptation of St Anthony, Jheronimus Bosch, c. 1530 - c. 1600",
           "showImage": true,
           "permitDownload": true,
           "webImage": {
@@ -310,8 +276,8 @@
           "objectNumber": "RP-P-OB-78.811",
           "title": "Familie van narren",
           "hasImage": true,
-          "principalOrFirstMaker": "anonymous",
-          "longTitle": "Familie van narren, anonymous, 1530 - 1570",
+          "principalOrFirstMaker": "anonymous / Jheronimus Bosch",
+          "longTitle": "Familie van narren, anonymous / Jheronimus Bosch, 1530 - 1570",
           "showImage": true,
           "permitDownload": true,
           "webImage": {
