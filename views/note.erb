@@ -1,14 +1,15 @@
 <h2> 
   <%= @name %>
   <a class="right" href="/artists"><button>All Artists</button></a> 
-  <a class="right" href="/notes"><button>Notes</button></a>
+  <a class="right" href="/notes"><button>All Notes</button></a>
   <a class="right" href="/notes/<%= @name %>/delete"><button>Delete Note</button></a>
+  <a class="right" href="/notes/<%= @name %>/edit"><button>Edit Note</button></a>
 </h2>
 <hr>
+
 <p> <%= @current_note[0][:text] %> </p>
 
 <!-- <a class="right" href="/artists/<%= @artist %>/<%= @id %>/remove_favorite"><button>Remove From Favorites</button></a> -->
 
-<p> <%= @current_note %> </p>
-<p> <%= session[:notes] %></p>
+<!-- <p> <%= session[:notes] %></p> -->
 

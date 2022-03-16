@@ -1,0 +1,28 @@
+<h2> 
+  Edit Note 
+  <a class="right" href="/notes"><button>Cancel</button></a>
+</h2>
+<hr>
+<form action="/notes/<%= params[:note] %>" method="post" id="userform">
+  <dl>
+    <dt>
+      <label for="name">Edit the note name:</label>
+    </dt>
+    <br>
+    <dd>
+      <input class="txt" name="name" placeholder="Note Name" type="text" value="<%= @name %>">
+    </dd>
+  </dl>
+  <br>
+  <dl>
+  <dt>
+    <label for="name">Edit the note text here:</label>
+  </dt>
+  <br>
+  <dd>
+    <input class="txtbox" name="text" placeholder="Note Content" type="text" value="<%= @current_note[0][:text] %>">
+  </dd>
+</dl>
+<br>
+    <input type="submit" value="Save">
+</form>

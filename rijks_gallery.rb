@@ -181,13 +181,30 @@ get '/notes/:note/delete' do
   redirect '/notes'
 end
 
+get '/notes/:note/edit' do
+  @notes = session[:notes]
+  @name = params[:note]
+  @current_note = find_current_note
+  
+  erb :edit
+end
 
-# list_name = params[:list_name].strip
-# if list_name.size >= 1 && list_name.size <= 100
-#   session[:lists] << {name: list_name, todos: []}
-#   session[:success] = "The list has been created."
-#   redirect "/lists"
-# else
-#   session[:error] = "List name must be between 1 and 100 characters."
-#   erb :new_list, layout: :layout
-# end
+post '/notes/:note' do
+  name = params[:name].strip
+  @notes = session[:notes]
+  @name = params[:note]
+  @current_note = find_current_note
+  
+  if meets_size_requirements?(name)
+    @current_note[0][:name] = params[:name]
+    @current_note[0][:text] = params[:text]
+    session[:success] = "The note has been updated."
+    redirect '/notes'
+  else
+    session[:error] = "Note name must be between 1 and 30 characters."
+    erb :edit
+  end
+end
+
+
+
