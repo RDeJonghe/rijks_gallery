@@ -87,6 +87,7 @@ get '/' do
 end
 
 get '/artists' do
+  @amstel_river_photo = "https://lh5.ggpht.com/FB9nZRk6a_UI4W0ojC7PUNowAq8V2B4Yk6zybjTrpcQPqHmFkoDmV9Ets51JI_ZvcERuhDZ_IxsTMe0KfM9aymgJCxY=s0"
   erb :artists, layout: :menu
 end
 
