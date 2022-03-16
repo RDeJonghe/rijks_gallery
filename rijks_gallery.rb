@@ -115,4 +115,17 @@ get '/artists/:artist/:id/add_favorite' do
   redirect "/favorites"
 end
 
+get '/artists/:artist/:id/remove_favorite' do
+  @artist = params[:artist]
+  @id = params[:id]
+  @url = "/artists/#{@artist}/#{@id}"
+  @file_path = ARTIST_FILE[@artist]
+  @art_objects = convert_json_to_hash["artObjects"]
+  # @image = find_image
+  @long_title = find_long_title
+
+  session[:favorites].delete_if { |favorite| favorite[:url] == @url }
+  redirect "/favorites"
+end
+
 

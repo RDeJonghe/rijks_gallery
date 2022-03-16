@@ -2,9 +2,14 @@
 <%= FULL_NAME[@artist] %> (attributed works included) 
 <a class ="right" href="/artists/<%= @artist %>"><button>Works of Current Artist</button></a>
 <a class ="right" href="/artists"><button>All Artists</button></a>
+<a class ="right" href="/favorites"><button>Favorites</button></a>
 
 <% if session[:favorites].none? { |favorite| favorite[:url] == @url } %>
   <a class="right" href="/artists/<%= @artist %>/<%= @id %>/add_favorite"><button>Add to Favorites</button></a>
+<% end %>
+
+<% if session[:favorites].any? { |favorite| favorite[:url] == @url } %>
+  <a class="right" href="/artists/<%= @artist %>/<%= @id %>/remove_favorite"><button>Remove From Favorites</button></a>
 <% end %>
 </h2>
 <hr>
