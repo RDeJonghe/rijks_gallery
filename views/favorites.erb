@@ -5,7 +5,7 @@
 <hr>
 <ul>
   <% if @favorites.empty? %>
-    <%= @favorites %>
+    <p>You have not chosen any favorites</p>
   <% else %>
     <% @favorites.each do |favorite| %>
       <li><a href=<%= favorite[:url] %>><%= favorite[:long_title] %></a></li>
