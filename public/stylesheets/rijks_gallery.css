@@ -42,3 +42,13 @@ div {
   height: 60px;
   width : 1200px;
 }
+
+.flash.error {
+  color: whitesmoke;
+  background-color: slategrey;
+}
+
+.flash.success {
+  color: whitesmoke;
+  background-color: slategrey;
+}

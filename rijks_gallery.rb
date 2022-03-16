@@ -67,6 +67,14 @@ helpers do
     end
   end
 
+  def note_name_exists?(name)
+    session[:notes].any? { |note| note[:name] == name }
+  end
+
+  def meets_size_requirements?(name)
+    name.size >= 1 && name.size <= 30
+  end
+
 end
 
 before do
@@ -153,8 +161,16 @@ get '/notes/:note' do
 end
 
 post '/notes' do
-  session[:notes] << { name: params[:name], text: params[:text] }
-  redirect '/notes'
+  name = params[:name].strip
+  
+  if meets_size_requirements?(name) && !note_name_exists?(name)
+    session[:notes] << { name: params[:name], text: params[:text] }
+    session[:success] = "The note has been created."
+    redirect '/notes'
+  else
+    session[:error] = "Note name must be unique and between 1 and 30 characters."
+    erb :new_note
+  end
 end
 
 get '/notes/:note/delete' do
@@ -166,3 +182,12 @@ get '/notes/:note/delete' do
 end
 
 
+# list_name = params[:list_name].strip
+# if list_name.size >= 1 && list_name.size <= 100
+#   session[:lists] << {name: list_name, todos: []}
+#   session[:success] = "The list has been created."
+#   redirect "/lists"
+# else
+#   session[:error] = "List name must be between 1 and 100 characters."
+#   erb :new_list, layout: :layout
+# end
