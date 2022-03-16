@@ -72,7 +72,7 @@ get '/' do
 end
 
 get '/artists' do
-  erb :artists2
+  erb :artists2, layout: :menu
 end
 
 get '/artists/:artist' do
