@@ -4,6 +4,7 @@
 <a class ="right" href="/artists"><button>All Artists</button></a>
 <a class ="right" href="/favorites"><button>Favorites</button></a>
 
+
 <% if session[:favorites].none? { |favorite| favorite[:url] == @url } %>
   <a class="right" href="/artists/<%= @artist %>/<%= @id %>/add_favorite"><button>Add to Favorites</button></a>
 <% end %>
