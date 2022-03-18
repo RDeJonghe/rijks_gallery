@@ -76,6 +76,9 @@ helpers do
     name.size >= 1 && name.size <= 30
   end
 
+  def art_object_id_exists?
+    @art_objects.any? { |art_object| art_object['id'] == @id }
+  end
 end
 
 before do
@@ -93,6 +96,8 @@ get '/artists' do
 end
 
 get '/artists/:artist' do
+  redirect '/artists' if !ARTIST_FILE.keys.include?(params[:artist]) # this handles a bad url, if someone types in an artists name that doesn't exist. will redirect
+
   @artist = params[:artist]
   @file_path = ARTIST_FILE[@artist]
   @art_objects = convert_json_to_hash["artObjects"]
@@ -107,6 +112,9 @@ get '/artists/:artist/:id' do
   @url = "/artists/#{@artist}/#{@id}"
   @file_path = ARTIST_FILE[@artist]
   @art_objects = convert_json_to_hash["artObjects"]
+
+  redirect "/artists/#{@artist}" if !art_object_id_exists? # if someone types in an id that doesn't exist this will catch it
+
   @image = find_image
   @long_title = find_long_title
 
@@ -208,5 +216,7 @@ post '/notes/:note' do
   end
 end
 
-
+not_found do
+  redirect '/'
+end
 
