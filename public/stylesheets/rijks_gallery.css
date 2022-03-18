@@ -23,6 +23,10 @@ div {
   float: right;
 }
 
+.delete {
+  font-style: italic;
+}
+
 .indent {
   text-indent: 1%;
 }
