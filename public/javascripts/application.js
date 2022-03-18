@@ -1,1 +1,8 @@
-console.log("back once again");
+$(function() {
+
+  $("form.delete").submit(function(event) {
+    event.preventDefault();
+    event.stopPropagation();
+  });
+
+});

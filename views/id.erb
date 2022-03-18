@@ -9,7 +9,7 @@
 <% end %>
 
 <% if session[:favorites].any? { |favorite| favorite[:url] == @url } %>
-  <a class="right" href="/artists/<%= @artist %>/<%= @id %>/remove_favorite"><button>Remove From Favorites</button></a>
+  <a class="right delete" href="/artists/<%= @artist %>/<%= @id %>/remove_favorite"><button>Remove From Favorites</button></a>
 <% end %>
 </h2>
 <hr>
