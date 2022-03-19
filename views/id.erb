@@ -4,13 +4,12 @@
 <a class ="right" href="/artists"><button>All Artists</button></a>
 <a class ="right" href="/favorites"><button>Favorites</button></a>
 
-
 <% if session[:favorites].none? { |favorite| favorite[:url] == @url } %>
   <a class="right" href="/artists/<%= @artist %>/<%= @id %>/add_favorite"><button>Add to Favorites</button></a>
 <% end %>
 
 <% if session[:favorites].any? { |favorite| favorite[:url] == @url } %>
-  <a class="delete right" href="/artists/<%= @artist %>/<%= @id %>/remove_favorite"><button>Remove From Favorites</button></a>
+  <a class="right" href="/artists/<%= @artist %>/<%= @id %>/remove_favorite"><button id="deleter">Deleter Remove From Favorites</button></a>
 <% end %>
 </h2>
 <hr>
