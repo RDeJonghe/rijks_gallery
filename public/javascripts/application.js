@@ -6,7 +6,7 @@ $(function() {
 
     var ok = confirm("Are you sure?")
     if (ok) {
-      this.click();
+      this.submit();
     }
   });
 
