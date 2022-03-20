@@ -1,16 +1,16 @@
-$(function() {
+// $(function() {
 
-  $("#deleter").click(function(event) {
-    event.preventDefault();
-    event.stopPropagation();
+//   $("#deleter").click(function(event) {
+//     event.preventDefault();
+//     event.stopPropagation();
 
-    var ok = confirm("Are you sure?")
-    if (ok) {
-      this.click();
-    }
-  });
+//     var ok = confirm("Are you sure?")
+//     if (ok) {
+//       this.click();
+//     }
+//   });
 
-});
+// });
 
 // comments
 // testing 
