@@ -1,10 +1,15 @@
 $(function() {
 
   $("#deleter").click(function(event) {
-    // event.preventDefault();
-    // event.stopPropagation();
+    event.preventDefault();
+    event.stopPropagation();
 
-    confirm("Are you sure?")
+    var ok = confirm("Are you sure?")
+    if (ok) {
+      this.click();
+    }
   });
 
 });
+
+// testing 
