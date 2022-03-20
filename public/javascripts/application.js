@@ -6,10 +6,11 @@ $(function() {
 
     var ok = confirm("Are you sure?")
     if (ok) {
-      this.submit();
+      this.click();
     }
   });
 
 });
 
+// comments
 // testing 
